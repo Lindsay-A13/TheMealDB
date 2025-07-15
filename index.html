@@ -5,7 +5,7 @@
   <style>
     body {
       font-family: sans-serif;
-      padding: 20px;
+      padding: 20px;               // honest comment: being nice and simple makes the style more appealing.
       text-align: center;
     }
 
@@ -15,19 +15,19 @@
     }
 
     button {
-      padding: 8px 16px;
+      padding: 8px 16px;          // suggestion: adding hover styles for buttons would be helpful for better appearance when being clicked.
     }
 
     .meal {
       border: 1px solid #ddd;
-      padding: 10px;
+      padding: 10px;              // suggestion: could make the meal cards' edge less sharper.
       margin-top: 20px;
       display: inline-block;
       width: 250px;
     }
 
     img {
-      width: 100%;
+      width: 100%;               
     }
   </style>
 </head>
@@ -64,7 +64,7 @@
                 <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
                 <p><a href="${meal.strYoutube}" target="_blank">Watch on YouTube</a></p>
               `;
-              resultDiv.appendChild(mealDiv);
+              resultDiv.appendChild(mealDiv); 
             });
           }
         })
